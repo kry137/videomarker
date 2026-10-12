@@ -39,6 +39,9 @@ npm run preview
 - `M`: tambah penanda
 - `←`: penanda sebelumnya
 - `→`: penanda berikutnya
+- `Q`: tambah penanda
+- `A`: penanda sebelumnya
+- `D`: penanda berikutnya
 
 Shortcut hanya bekerja saat fokus tidak berada di kolom input.
 
@@ -46,4 +49,3 @@ Shortcut hanya bekerja saat fokus tidak berada di kolom input.
 - Video tidak diunggah ke server; browser membuka file lokal.
 - Penanda tersimpan berdasarkan nama file, ukuran, dan waktu modifikasi. Jika file yang sama dipilih lagi pada browser yang sama, penanda akan dimuat kembali.
 - File JSON penanda tidak menyertakan video itu sendiri.
-- Versi awal ini belum mendeteksi perubahan tombol secara otomatis.
