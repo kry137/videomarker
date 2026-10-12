@@ -109,9 +109,10 @@ export default function App() {
     [markers],
   );
 
-  const selectedMarkerIndex = sortedMarkers.findIndex(
-    (marker) => marker.id === selectedMarkerId,
-  );
+  // TODO: UNUSED
+  // const selectedMarkerIndex = sortedMarkers.findIndex(
+  //   (marker) => marker.id === selectedMarkerId,
+  // );
 
   const chooseFile = (event: ChangeEvent<HTMLInputElement>) => {
     const selectedFile = event.target.files?.[0];
